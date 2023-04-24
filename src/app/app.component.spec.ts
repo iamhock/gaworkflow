@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'gaworkflow'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('gaworkflow');
+    expect(app.title).toEqual('gaworkflow test');
   });
 
   it('should render title', () => {
